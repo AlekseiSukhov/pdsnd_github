@@ -27,5 +27,4 @@ You will need to downlad the files with raw data from the link bellow
 https://www.motivateco.com/ from here you might be able to get the raw data for the three cities 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thanks to the the team at Udacity for making this cource, found it very good pracice for introduction to data scinece.

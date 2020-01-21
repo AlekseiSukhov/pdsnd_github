@@ -23,7 +23,8 @@ At the end the program will ask whether the wish to see the raw data for the Cit
 Additionally, a user can restart the algorythm to sprecify different criteria
 
 ### Files used
-Include the files used
+You will need to downlad the files with raw data from the link bellow
+https://www.motivateco.com/ from here you might be able to get the raw data for the three cities 
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.

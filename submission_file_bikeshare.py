@@ -218,6 +218,7 @@ def user_stats(df):
             print('Sorry there is not data about gender for this city')
             break
     # Display earliest, most recent, and most common year of birth
+        # Display earliest year of birth
         try:
             earliest_yob = int(df['Birth Year'].min())
             print('The eariest year of birth is:{}'.format(earliest_yob))
@@ -225,11 +226,15 @@ def user_stats(df):
         except KeyError:
             print('Sorry there is not data about clients\' date of birth for this city')
             break
+
+        # Display most recent year of birth
         try:
             most_recent_youb = int(df['Birth Year'].max())
             print('The most recent year of birth is:{}'.format(most_recent_youb))
         except KeyError:
             break
+
+        # Display most common year of birth
         try:
             most_common_yob = int(df['Birth Year'].mode()[0])
             print('The most common year of birth is:{}'.format(most_common_yob))

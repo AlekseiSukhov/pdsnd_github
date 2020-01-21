@@ -250,8 +250,8 @@ def raw_data(df):
 
         while answ == 'y':
             print(df[start_count:end_count])
-            start_count+=5
-            end_count+=5
+            start_count+=8
+            end_count+=8
             answ = input('Would you like to see more raw data? Type in yes or no\n').lower()
 
 

@@ -245,10 +245,10 @@ def raw_data(df):
     start_count = 0
     end_count = 5
 
-    answ = input('\nWould you like to see the indivudual data for the user of this bycyle cervice? Type in yes or no\n').lower()
-    if answ == 'yes':
+    answ = input('\nWould you like to see the indivudual data for the user of this bycyle cervice? Type in yes or no\n').lower()[0]
+    if answ == 'y':
 
-        while answ == 'yes':
+        while answ == 'y':
             print(df[start_count:end_count])
             start_count+=5
             end_count+=5

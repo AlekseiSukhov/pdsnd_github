@@ -2,7 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 import calendar
-
+#This is dictionary for the city names and the CSV file names that are assocauted with them
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
